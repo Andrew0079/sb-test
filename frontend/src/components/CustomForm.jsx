@@ -85,7 +85,7 @@ const CustomForm = ({ buttonText, formSubtitle, formFooterContent, linkText, lin
   return (
     <Box style={{ paddingLeft: 50, paddingTop: 20 }}>
        <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-        <Alert onClose={handleClose} severity="success">
+        <Alert onClose={handleClose} severity="error">
          {error}
         </Alert>
       </Snackbar>
